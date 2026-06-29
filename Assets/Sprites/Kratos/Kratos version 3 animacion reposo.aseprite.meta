@@ -1,8 +1,13 @@
 fileFormatVersion: 2
-guid: cddf7c35782963d41a5d31b02af57a50
+guid: 4cb0ef1c339a3404e8a37b8a64f4569b
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Kratos version 3 animacion reposo_Clip
+    second: {fileID: 7400000, guid: 6913068a0da93224b83a49bd71e41851, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -36,7 +41,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 64
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -101,7 +106,7 @@ ScriptedImporter:
     addShadowCasters: 0
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 639182746764225130
   singleSpriteImportData:
   - name: 
     originalName: 
@@ -137,7 +142,7 @@ ScriptedImporter:
       y: 81
       width: 40
       height: 68
-    spriteID: 60e8db5c4f1dcc842bd6bb4094c584c2
+    spriteID: 0062dff768ee79f46a7edf19ea10e1cd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -158,7 +163,7 @@ ScriptedImporter:
       y: 4
       width: 40
       height: 69
-    spriteID: 98dc871f7e630cf47a6a5b73a52580c7
+    spriteID: 06cdf731a081b56409bdba29bece292f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -179,7 +184,7 @@ ScriptedImporter:
       y: 157
       width: 40
       height: 68
-    spriteID: 9b0404967fc58c54da0eaaf572cecebc
+    spriteID: 6d2a534d487bca24e8464e5909d4ea73
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,7 +205,7 @@ ScriptedImporter:
       y: 4
       width: 40
       height: 67
-    spriteID: 52b00ad55e529c34cb2f57d3a58c2f1a
+    spriteID: 82a2a6e3c1e694540b35a22347818dd6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -232,7 +237,7 @@ ScriptedImporter:
         y: 0
         width: 40
         height: 68
-      spriteId: 60e8db5c4f1dcc842bd6bb4094c584c2
+      spriteId: 0062dff768ee79f46a7edf19ea10e1cd
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -241,7 +246,7 @@ ScriptedImporter:
         y: 0
         width: 40
         height: 69
-      spriteId: 98dc871f7e630cf47a6a5b73a52580c7
+      spriteId: 06cdf731a081b56409bdba29bece292f
     - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -250,7 +255,7 @@ ScriptedImporter:
         y: 0
         width: 40
         height: 68
-      spriteId: 9b0404967fc58c54da0eaaf572cecebc
+      spriteId: 6d2a534d487bca24e8464e5909d4ea73
     - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -259,13 +264,49 @@ ScriptedImporter:
         y: 0
         width: 40
         height: 67
-      spriteId: 52b00ad55e529c34cb2f57d3a58c2f1a
+      spriteId: 82a2a6e3c1e694540b35a22347818dd6
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
     parentIndex: -1
   tileSets: []
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   previousTextureSize: {x: 128, y: 256}
